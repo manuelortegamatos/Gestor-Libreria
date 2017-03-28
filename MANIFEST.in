@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gestor_libreta *.css
+recursive-include gestor_libreta *.csv
+recursive-include gestor_libreta *.html
+recursive-include gestor_libreta *.ico
+recursive-include gestor_libreta *.js
+recursive-include gestor_libreta *.json
+recursive-include gestor_libreta *.md
+recursive-include gestor_libreta *.png
+recursive-include gestor_libreta *.py
+recursive-include gestor_libreta *.svg
+recursive-include gestor_libreta *.txt
+recursive-exclude gestor_libreta *.pyc
