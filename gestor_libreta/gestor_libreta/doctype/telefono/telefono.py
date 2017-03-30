@@ -7,4 +7,12 @@ import frappe
 from frappe.model.document import Document
 
 class Telefono(Document):
-	pass
+
+	def validate(self):
+		first_var = frappe.get_list("Telefono",
+			fields = ["phone_number", "tipo"],
+			filters = {
+				"contacto": self.contacto,
+				"phone_number": ("<=", self.phone_number)
+							
+			})

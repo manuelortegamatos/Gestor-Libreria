@@ -1,6 +1,6 @@
 // Copyright (c) 2017, Frappe and contributors
 // For license information, please see license.txt
-
+/*
 frappe.ui.form.on("Telefono", "contacto", 
 	 function(frm) {
 		frappe.call({
@@ -18,4 +18,27 @@ frappe.ui.form.on("Telefono", "contacto",
 			}
 				
 		})
-	});
+
+
+frappe.ui.form.on('Telefono', {
+	refresh: function(frm) {
+
+
+	}
+});
+	});*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
