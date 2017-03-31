@@ -38,7 +38,7 @@
    "read_only": 0, 
    "remember_last_selected_value": 0, 
    "report_hide": 0, 
-   "reqd": 1, 
+   "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
    "unique": 0
@@ -71,7 +71,7 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "unique": 0
+   "unique": 1
   }, 
   {
    "allow_on_submit": 0, 
@@ -144,7 +144,7 @@
  "issingle": 0, 
  "istable": 1, 
  "max_attachments": 0, 
- "modified": "2017-03-29 00:35:08.345177", 
+ "modified": "2017-03-31 02:12:55.921164", 
  "modified_by": "Administrator", 
  "module": "Gestor Libreta", 
  "name": "Email", 

@@ -38,7 +38,7 @@
    "read_only": 0, 
    "remember_last_selected_value": 0, 
    "report_hide": 0, 
-   "reqd": 1, 
+   "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
    "unique": 0
@@ -201,7 +201,7 @@
  "issingle": 0, 
  "istable": 1, 
  "max_attachments": 0, 
- "modified": "2017-03-29 00:44:28.096208", 
+ "modified": "2017-03-31 02:11:45.764066", 
  "modified_by": "Administrator", 
  "module": "Gestor Libreta", 
  "name": "Direccion", 
